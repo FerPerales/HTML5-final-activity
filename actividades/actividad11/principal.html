@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Actividad 11 - Utilizando listas</title>
+        <link rel="stylesheet" href="css/principal.css"/>
+        <link rel="stylesheet" href="../../css/index.css"/>
+    </head>
+    <body>
+        <header>
+        <h1>Actividad 11</h1> 
+        <h2>Utilizando listas</h2>
+            </header>
+        <nav>
+                <ul>
+                    <li><a class="resaltado" href="../../index.html">Principal</a></li>
+                    <li><a class="resaltado" href="../preguntas/principal.html">Preguntas</a></li>       
+                    <li><a class="resaltado" href="../actividad07/principal.html">Actividad 7</a></li>
+                    <li><a class="resaltado" href="../actividad09/principal.html">Actividad 9</a></li>
+                    <li><a class="resaltado" href="../actividad11/principal.html">Actividad 11</a></li>
+                    <li><a class="resaltado" href="../actividad13/principal.html">Actividad 13</a></li>
+                    <li><a class="resaltado" href="../actividad19/principal.html">Actividad 19</a></li>                           
+                </ul>
+                
+            </nav>
+        <article>
+        <h3>Escenario</h3>
+        <p>En esta actividad realizaras una aplicación Web (un conjunto de uno o más archivos o páginas Web) y aplicarás los 
+            elementos mostrados en el módulo “Utilizando listas”.</p>
+        <h3>Resumen del módulo y actividad</h3>
+        <p>Las listas son una herramienta para representar información que tiene alguna clase de relación.</p>
+        <p>En HTML5 existen dos tipos de listas principalmente: </p>
+            <ul>
+                <li>Listas desornedadas: representadas con la etiqueta &lt;ul&gt;</li>
+                <li>Listas ordenadas: representadas con la etiqueta &lt;ol&gt;</li>                
+            </ul>            
+        
+        <p><em>En cualquiera de las los listas, los items son representados con la etiqueta &lt;li&gt;</em></p>
+        <p>El ejemplo anterior emplea una lista desordenada ya que no fue necesario catalogar o dar más prioridad a algún elemento</p>
+        <p>También podemos cambiar el tipo de viñeta que se muestra por defecto y ponerle una imagen personalizada a través de CSS
+            haciendo uso de la propiedad <em> list-style-image:url()</em> y dentro de url, la dirección de la imagen deseada</p>
+        <p>Puntos a tratar sobre listas:</p>
+            <ul>
+                <li class="terminado">Listas ordenadas</li>
+                <li class="terminado">Listas con imágen como viñeta</li>
+                <li class="pendiente">Listas ordenadas</li>
+                <li class="pendiente">Listas como barra de navegación</li>                
+            </ul>
+        
+        
+        <p>Las listas ordenadas suelen mostrar números consecutivos para denotar un orden</p>
+        <p>La forma de desplegar las listas varía según el navegador y debemos tomar en cuenta esto para hacer un sitio que sea o intente ser
+            100% compatible con la mayoría de los navegadores principales que, según <a href="http://en.wikipedia.org/wiki/Usage_share_of_web_browsers"
+            target="_blank">el artículo de Wikipedia respecto al porcentaje de uso de los navegadores</a>, corresponde a lo siguiente:</p>
+            <ol>
+                <li>Internet Explorer  - 34.2%</li>
+                <li>Firefox - 23.6%</li>
+                <li>Chrome - 20.6%</li>
+                <li>Safari - 11.2%</li>
+                <li>Opera - 5.0%</li>
+            </ol>                                
+        <h3>Lista de definiciones</h3>
+        
+        <p>Una lista de definiciones es representada con la etiqueta &lt;dl&gt; y nos permite hacer listas que representan una asociación correspondiente 
+            de dos elementos llamados término y descripción que son representados con las etiquetas &lt;dt&gt; y &lt;dd&gt; respectivamente</p>
+        <p>Puede usarse para hacer una lista con palabras y definiciones o preguntas y respuestas tal como se puede observar 
+            <a href="../preguntas/principal.html">en la sección de preguntas de esta página</a></p>
+        <p>Otro de los usos para las listas de definiciones es para sustituir a la etiqueta &lt;dialog&gt; que aún no está considerada como parte del
+            estándar</p>        
+        <dl>
+            <dt>Visitante</dt>
+            <dd>Entonces... ¿dices que esto sirve para hacer diálogos entre dos personas?</dd>
+            <dt>Creador</dt>
+            <dd>¡Claro!, Sólo debes recodar que cada etiqueta &lt;dt&gt; debe llevar su correspondiente etiqueta &lt;dd&gt;</dd>
+            <dt>Visitante</dt>
+            <dd>¡Wow! Parece simple. Lo intentaré</dd>                
+            <dt>Creador</dt>
+            <dd>Y todos esos pares término - descripción van dentro de la etiqueta &lt;dl&gt;</dd>
+        </dl>            
+        <br/>
+        <h3>Barra de navegación</h3>
+        <p>Una barra de navegación es una especia de menú que nos permite desplazarnos a través de diverso contenido web ya sea en nuestra página
+            o enlazando otras páginas.</p>
+        <p>Usando una lista ordenada y CSS, podelos crear una barra de navegación, para ahorrar algo de tiempo, podemos incluir algunas de las barras
+            de navegación de libre uso ya existentes en la web o puedes ver alguno de los tutoriales para crearla</p>        
+        <br/>      
+        
+        <ul class="navegacion">
+            <li><a href="http://www.desarrolloweb.com/articulos/barra-navegacion-horizontal-listas-css.html" target="_blank">
+                Tutorial en desarrolloweb.com</a></li>
+            <li><a href="http://www.estilocss.com/8-tutoriales-de-css/18-como-crear-una-barra-de-navegacion-en-css.html" target="_blank">
+                Tutorial en estiloscss.com</a></li>
+            <li><a href="http://www.cssjuice.com/30-free-css-based-navigation-menus/" target="_blank">
+                Galería con 30 barras de navegación gratuitas</a></li>
+            <li><a href="http://www.cssblog.es/elegante-barra-de-navegacion-usando-css/" target="_blank"> 
+                Elegante barra usando CSS3</a></li>                                                                
+        </ul>                          
+                            
+        <br/>        
+            </article>
+        <br/>
+        <div class="validaciones">
+            <a href="http://jigsaw.w3.org/css-validator/validator?profile=css3;uri=http://www.ferperales.comoj.com/actividades/actividad11/principal.html"
+                 target="_blank">
+                <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="¡CSS Válido!" />
+            </a>
+            <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.ferperales.comoj.com%2Factividades%2Factividad11%2Fprincipal.html"
+                target="_blank">
+                <img style="border:0;width:88px;height:31px"
+                src="../../img/w3cHTML.jpg"
+                alt="¡HTML5 Válido!" />
+            </a>                               
+        </div> 
+           <footer>
+                
+                <a class="socialTwitter" href="https://twitter.com/#!/FerPeralesM" target="_blank"><img src="../../img/t.gif" alt="Twitter"
+                    height="24" width="24" />
+                </a>
+                Oscar Fernando Perales Montoya 2012
+                <a class="socialFacebook" href="https://facebook.com/merciless.machine" target="_blank"><img src="../../img/f.gif" alt="Facebook"
+                height="24" width="24" />
+                    
+                </a>
+            </footer> 
+    </body>
+</html>

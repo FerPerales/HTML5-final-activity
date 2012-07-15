@@ -1,0 +1,36 @@
+#floatIzq{
+    float:right;    
+    margin:10px;
+    
+}
+
+#floatDer{
+    float:left;
+    margin-right: 100px;
+    
+}
+
+#imagenEnlace{
+    text-align:center;
+    
+}
+
+#mapa{
+    text-align:center;
+    
+}
+
+hr{
+    background:url("../img/separador.png");    
+    height:25px;
+    background-repeat:no-repeat;
+    background-position:center;
+    border:none;
+}
+
+img{
+    text-align:center;
+    
+}
+
+

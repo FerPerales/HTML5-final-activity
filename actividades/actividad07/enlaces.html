@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="../../css/index.css"/>
+        <link rel="stylesheet" href="css/principal.css"/>
+        <title></title>
+    </head>
+    <body>
+        <div class="contenedor">
+        <header>
+            <h1>Actividad 7</h1>
+            <h2>Enlaces o hipervínculos</h2>
+        </header>
+        <nav>
+                <ul>
+                    <li><a class="resaltado" href="../../index.html">Principal</a></li>
+                    <li><a class="resaltado" href="../preguntas/principal.html">Preguntas</a></li>                                   
+                    <li><a class="resaltado" href="../actividad07/principal.html">Actividad 7</a></li>
+                    <li><a class="resaltado" href="../actividad09/principal.html">Actividad 9</a></li>
+                    <li><a class="resaltado" href="../actividad11/principal.html">Actividad 11</a></li>
+                    <li><a class="resaltado" href="../actividad13/principal.html">Actividad 13</a></li>
+                    <li><a class="resaltado" href="../actividad19/principal.html">Actividad 19</a></li>                           
+                </ul>                
+        </nav>   
+        <article>
+        <h2>Enlaces o hipervínculos</h2>
+        
+        <p>Los enlaces o hipervínculos son la parte fundamental de las páginas de internet ya que estas nos permiten navegar sobre los diversos
+            contenidos que pueden existir dentro de una página o enlazarnos a otras páginas de internet</p>
+        <p>Existen diversas formas de enlazar otras páginas de internet mediante los hipervínculos ya sea en el comportamiento externo o internamente 
+            en el código de la página puedes existir variaciones que el usuario no vería reflejadas hasta que consultara el código fuente de la 
+            página</p>
+        <p>Sin importar el tipo de enlace, debemos saber que la etiqueta que nos permite hacerlo es &lt;a&gt;</p>
+        <h2>Enlaces a sitios externos</h2>
+        <p>Los enlaces a sitios externos pueden aparecer en la misma ventana o pestaña* que se está utilizando para visualizar la página actual o
+            en una nueva mediante el atributo target y el valor "_blank" para que aparezca en undea nueva ventana/pestaña u omitir este
+            atributo para lograr el comportamiento predeterminado que es abrir la nueva página sobre la actual</p>
+        <p>Para más información sobre el uso del la etiqueta &lt;a&gt;, puedes visitar la página w3schools en el apartado correspondiente a la 
+            etiqueta &lt;a&gt; <a href="http://www.w3schools.com/tags/tag_a.asp" target="_blank">en una nueva pestaña</a> o <a href="http://www.w3schools.com/tags/tag_a.asp">
+            en esta misma</a></p>        
+        <p id="anotacion">*Algunos navegadores antiguos no cuentan con navegación por pestañas lo que alterará el comportamiento de "_blank"
+            abriendo una nueva ventana del navegador para su despliegue en lugar de hacerlo en una nueva pestaña como los navegadores
+            más recientes</p>
+        
+        
+        <h2>Rutas relativas al documento y rutas relativas a la raíz</h2>
+        <p></p>
+        <p>Los enlaces a continuación, te llevarán a la página principal de esta actividad y la desplegarán en esta misma pestaña con la diferencia
+            de que <a href="principal.html">este utiliza ruta relativa al documento</a> y este utiliza 
+            <a href="../actividad07/principal.html">la ruta relativa al directorio raíz</a></p>
+        
+        
+        <h2>Enlaces a una sección de la página</h2>
+        <p>Este tipo de enlaces se utilizan para saltar de una parte de la página a otra y con esto evitar que el usuario se desplace por toda la 
+            página para localizar el contenido de su interés</p>
+        <p>Posiblemente ya te cansaste de leer sobre enlaces, así que, puedes <a href="#otrasPartes">saltar a la sección donde puedes acceder a 
+            las otras partes de esta actividad</a></p>
+        
+        
+        <h2>Otro tipo de hipervínculos: envío de correo electrónico</h2>
+        <p>La etiqueta &lt;a&gt; no sólo nos permite hacer enlaces a otras páginas sino que también nos permite facilitar al visitante de nuestra
+            página el ponerse en contacto con nosotros a través de un correo electrónico colocando como valor del atributo href "mailto:" 
+            seguido del correo electrónico de contacto de una manera similar a esta:</p>
+        <p>href="mailto:usuario@dominio.com"</p>
+        <p>Lo que abrirá el cliente de correo electrónico por defecto en el sistema del visitante y completando automáticamente la dirección de
+            destinatario con la especificada en el valor de href</p>
+        <p>Lo mejor de todo es que, también podemos indicar dentro del valor de href que se usen parámetros adicionales para el envió del correo
+            como es el asunto, el cuerpo o indicar una dirección alternativa para enviar una copia del email. Para esto, sólo basta concatenar
+            usando el caracter &amp; la palabra <em>subject</em> para el asunto, <em>body</em> para el contenido o <em>cc</em> para otra dirección
+            de correo electrónico pudiendo hacer combinaciones de los campos anteriores según nos interese poniendo un signo de interrogación 
+            después del correo y una serie de parejas campo=valor separados por el símbolo &amp;</p>
+        <p>Para cualquier duda o sugerencia que tengas sobre esta página y su contenido, puedes enviarme un correo electrónico a 
+            <a href="mailto:fernando.perales@live.com.mx&amp;subject=Página%20del%20diplomado%20HTML5">mi cuenta personal</a></p>
+        
+        <h2>Otro tipo de hipervínculos: enlaces a archivos</h2>
+        <p>Otro de los usos de la etiqueta &lt;a&gt; es poder enlazar archivos en diversos formatos para podermos compartir con nuestros visitantes
+            y facilitar la descarga de los mismos en sus equipos</p>
+        <p>Uno de los formatos más comunes para compartir archivos por internet es el .zip que nos permite agrupar y comprimir una serie de archivos
+            en uno solo mismo que el usuario podrá descomprimir en su equipo para visualizar su contenido</p>
+        <p>Puedes obtener las imágenes que usé para la actividad final del diplomado descargando <a href="src/imagenes.zip">
+            este archivo comprimido en formato zip</a></p>
+        
+        <h3 id="otrasPartes">Ver las otras partes de esta actividad</h3>
+        <p class="enlaces"><a href="franjas.html">Franjas de colores</a>
+            <a href="parrafos.html">Parrafos</a>
+            <a href="principal.html">Ir a la página principal</a></p>
+        </article>
+        <br />
+        <div class="validaciones">
+            <a href="http://jigsaw.w3.org/css-validator/validator?profile=css3;uri=http://www.ferperales.comoj.com/actividades/actividad07/enlaces.html"
+                 target="_blank">
+                <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="¡CSS Válido!" />
+            </a>
+            <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.ferperales.comoj.com%2Factividades%2Factividad07%2Fenlaces.html"
+                target="_blank">
+                <img style="border:0;width:88px;height:31px"
+                src="../../img/w3cHTML.jpg"
+                alt="¡HTML5 Válido!" />
+            </a>                               
+        </div>     
+            
+        <footer>
+                
+                <a class="socialTwitter" href="https://twitter.com/#!/FerPeralesM" target="_blank"><img src="../../img/t.gif" alt="Twitter"
+                    height="24" width="24" />
+                </a>
+                Oscar Fernando Perales Montoya 2012
+                <a class="socialFacebook" href="https://facebook.com/merciless.machine" target="_blank"><img src="../../img/f.gif" alt="Facebook"
+                height="24" width="24" />
+                    
+                </a>
+            </footer> 
+        </div>
+    </body>
+</html>

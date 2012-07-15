@@ -1,0 +1,39 @@
+#pinkFloyd_min, #elPersonal_min, #eidyllion_min, #doors_min{
+       margin:10px;  
+    text-align:center;  
+    
+}
+
+#pinkFloyd, #elPersonal, #eidyllion, #doors{
+    display:none;             
+}
+
+.centrado{
+text-align:center;
+margin:auto;
+     
+}
+
+#imagenGrande{
+    
+    list-style-type:none;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    width:345px;
+    height:350px;
+    border-style:solid;
+    border-color:#DFE5A9;
+    padding:10px;
+    
+    
+}
+
+img:hover{
+    border-color:#8F1922;
+    border-style:solid;
+    border-width:thick;
+
+}
+
+

@@ -1,0 +1,46 @@
+.terminado{
+       list-style-image:url('../img/green-right-arrow.gif');
+   
+}
+
+.pendiente{
+        list-style-image:url('../img/red-right-arrow.ico');
+    
+}
+
+.navegacion{
+    
+    margin-left:auto;
+    margin-right:auto;
+    list-style-type:none;
+  
+}
+
+.navegacion a{
+    text-decoration:none;
+    border-style:groove;
+    border-radius:10px;
+    border-color:#9E8953;
+    padding:3px;    
+    margin:5px;   
+    
+}
+
+.navegacion a:hover{
+    text-decoration:none;
+    border-style:dotted;
+    border-radius:10px;
+    border-color:#8F1922;
+    color:#9E8953;
+    padding:3px;
+    margin:5px;       
+}
+
+.navegacion ul, .navegacion li{
+    float:right;
+    margin-left:auto;
+    margin-right:auto;
+    text-decoration:none;
+    
+    
+}

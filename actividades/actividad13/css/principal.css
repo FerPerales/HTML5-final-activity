@@ -1,0 +1,66 @@
+#tablaConBordes td, #tablaConBordes th, #tablaCentrada td, #tablaCentrada th, #tablaDerecha th, #tablaDerecha td,
+#tablaImagenCelda td, #tablaImagenCelda th{
+    border-color:#9E8953;
+    border-style:solid;
+    border-width:2px;
+    }
+    
+#tablaCDS td, #tablaCDS th, #tablaImagenCelda{
+    border-color:#9E8953;
+    border-style:solid;
+    border-width:2px;
+    color:#8F1922;
+    text-align:center;
+    
+    
+}    
+
+#tablaConBordes, #tablaCentrada, #tablaDerecha, #tablaCDS, #tablaImagenCelda{
+    border-collapse:collapse;       
+}
+
+#tablaCentrada, #tablaImagenCelda{
+    margin-left:auto;
+    margin-right:auto;    
+}
+
+#tablaDerecha{
+    margin-left:auto;        
+}
+
+.colorFondo{
+    background-color:#8F1922;
+    
+}
+ #tablaCDS td, #tablaCDS th{
+    
+    padding:15px;
+}
+
+#tablaCDS{
+    margin:0 auto 0 auto;
+    background-image:url("../img/fondo.jpg");
+    padding:10px;
+}
+
+
+
+caption{
+    margin-top:10px;
+    caption-side:bottom;
+}
+
+.celda1{
+    background-image:url("../img/celda1.jpg");
+    
+}
+
+.celda2{
+    background-image:url("../img/celda2.png");
+    
+}
+
+#tablaImagenCelda td, #tablaImagenCelda th{
+    color:#DFE5A9;
+    padding:15px;
+}

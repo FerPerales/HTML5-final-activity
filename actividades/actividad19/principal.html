@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Actividad 19 - Mejorando HTML con JavaScript</title>
+        <link rel="stylesheet" href="../../css/index.css"/>        
+        <link rel="stylesheet" href="css/principal.css" />
+        <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>                        
+        <script type="text/javascript" src="js/scriptImagenes.js"></script>
+        
+        
+    </head>
+    <body>
+        <header>
+        <h1>Actividad 19</h1>
+        <h2>Mejorando HTML con JavaScript</h2>
+            </header>
+        <nav>
+                <ul>
+                    <li><a class="resaltado" href="../../index.html">Principal</a></li>
+                    <li><a class="resaltado" href="../preguntas/principal.html">Preguntas</a></li>        
+                    <li><a class="resaltado" href="../actividad07/principal.html">Actividad 7</a></li>
+                    <li><a class="resaltado" href="../actividad09/principal.html">Actividad 9</a></li>
+                    <li><a class="resaltado" href="../actividad11/principal.html">Actividad 11</a></li>
+                    <li><a class="resaltado" href="../actividad13/principal.html">Actividad 13</a></li>
+                    <li><a class="resaltado" href="../actividad19/principal.html">Actividad 19</a></li>                           
+                </ul>
+                
+            </nav>
+        <article>
+        <h3>Escenario</h3>
+        <p>Para realizar esta actividad debes ver el video “Video con explicación de la actividad 17” donde se 
+            proporciona la información necesaria para realizar la actividad.</p>
+        
+        <h3>JavaScript</h3>
+            
+        <p>JavaScript es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos,3 basado en 
+            prototipos, imperativo, débilmente tipado y dinámico.</p>
+
+        <p>Se utiliza principalmente en su forma del lado del cliente (client-side), implementado como parte de un navegador web permitiendo mejoras
+            en la interfaz de usuario y páginas web dinámicas, aunque existe una forma de JavaScript del lado del servidor (Server-side JavaScript o 
+            SSJS).</p>
+
+        <p>JavaScript se diseñó con una sintaxis similar al C, aunque adopta nombres y convenciones del lenguaje de programación Java. Sin embargo 
+            Java y JavaScript no están relacionados y tienen semánticas y propósitos diferentes.</p>
+
+        <p>Todos los navegadores modernos interpretan el código JavaScript integrado en las páginas web. Para interactuar con una página web se 
+            provee al lenguaje JavaScript de una implementación del Document Object Model (DOM).</p>
+        <h3>JQuery</h3>
+        <p>jQuery es una biblioteca de JavaScript, creada inicialmente por John Resig, que permite simplificar la manera de interactuar con los 
+            documentos HTML, manipular el árbol DOM, manejar eventos, desarrollar animaciones y agregar interacción con la técnica AJAX a páginas
+            web. Fue presentada el 14 de enero de 2006 en el BarCamp NYC.</p>
+
+        <p>jQuery es software libre y de código abierto, posee un doble licenciamiento bajo la Licencia MIT y la Licencia Pública General de GNU v2,
+            permitiendo su uso en proyectos libres y privativos.1 jQuery, al igual que otras bibliotecas, ofrece una serie de funcionalidades basadas 
+            en JavaScript que de otra manera requerirían de mucho más código, es decir, con las funciones propias de esta biblioteca se logran 
+            grandes resultados en menos tiempo y espacio.</p>
+        <br/>
+            
+        <audio id="audioPF">
+            <source src="audio/mp3/echoes.mp3" type="audio/mp3"/>
+            <source src="audio/mp3/echoes.ogg" type="audio/ogg"/>
+            <source src="audio/mp3/echoes.wav" type="audio/wav"/>
+        </audio>
+        <audio id="audioEP">
+            <source src="audio/mp3/nomehallo.mp3" type="audio/mp3"/>
+             <source src="audio/mp3/nomehallo.ogg" type="audio/ogg"/>
+            <source src="audio/mp3/nomehallo.wav" type="audio/wav"/>
+        </audio>
+        <audio id="audioTD">
+            <source src="audio/mp3/spanish.mp3" type="audio/mp3"/>
+            <source src="audio/mp3/spanish.ogg" type="audio/ogg"/>
+            <source src="audio/mp3/spanish.wav" type="audio/wav"/>
+        </audio>
+        <audio id="audioE">
+            <source src="audio/mp3/llorona.mp3" type="audio/mp3"/>
+            <source src="audio/mp3/llorona.ogg" type="audio/ogg"/>
+            <source src="audio/mp3/llorona.wav" type="audio/wav">
+        </audio>
+        <p  class="centrado"> 
+            <img id="pinkFloyd_min" src="img/pinkfloyd.jpg" width="150" height="150" 
+                onmouseover="javascript:document.getElementById('audioPF').play();"
+                onmouseout="javascript:document.getElementById('audioPF').pause();" 
+                alt="Miniatura Pink Floyd"/>
+              
+            <img id="elPersonal_min" src="img/el-personal.jpg" width="150" height="150"              
+                onmouseover="javascript:document.getElementById('audioEP').play();"
+                onmouseout="javascript:document.getElementById('audioEP').pause();" 
+                alt="Miniatura El Personal"/>           
+            
+            <img id="doors_min" src="img/doors.jpg" width="150" height="150"             
+                onmouseover="javascript:document.getElementById('audioTD').play();"
+                onmouseout="javascript:document.getElementById('audioTD').pause();" 
+                alt="Miniatura The Doors"/>           
+            
+            <img id="eidyllion_min" src="img/eidyllion.jpg" width="150" height="150"             
+                onmouseover="javascript:document.getElementById('audioE').play();"
+                onmouseout="javascript:document.getElementById('audioE').pause();"
+                alt="Miniatura Eidyllion"/>      
+            
+        </p>
+        
+        <ul id="imagenGrande">
+            <li><img id="pinkFloyd" src="img/pinkfloyd.jpg" width="350" height="350" alt="Pink Floyd"/></li>
+            <li><img id="elPersonal" src="img/el-personal.jpg" width="350" height="350" alt="El Personal"/></li>            
+            <li><img id="doors" src="img/doors.jpg" width="350" height="350" alt="The Doors"/></li>            
+            <li><img id="eidyllion" src="img/eidyllion.jpg" width="350" height="350" alt="Eidyllion"/></li>
+        </ul>      
+        
+        <br/>          
+        </article>
+        <br/>
+        <div class="validaciones">
+            <a href="http://jigsaw.w3.org/css-validator/validator?profile=css3;uri=http://www.ferperales.comoj.com/actividades/actividad19/principal.html"
+                 target="_blank">
+                <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="¡CSS Válido!" />
+            </a>
+            <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.ferperales.comoj.com%2Factividades%2Factividad19%2Fprincipal.html"
+                target="_blank">
+                <img style="border:0;width:88px;height:31px"
+                src="../../img/w3cHTML.jpg"
+                alt="¡HTML5 Válido!" />
+            </a>                               
+        </div> 
+        <footer>
+                
+                <a class="socialTwitter" href="https://twitter.com/#!/FerPeralesM" target="_blank"><img src="../../img/t.gif" alt="Twitter"
+                    height="24" width="24" />
+                </a>
+                Oscar Fernando Perales Montoya 2012
+                <a class="socialFacebook" href="https://facebook.com/merciless.machine" target="_blank"><img src="../../img/f.gif" alt="Facebook"
+                height="24" width="24" />
+                    
+                </a>
+            </footer> 
+    </body>
+</html>
